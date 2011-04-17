@@ -7,12 +7,22 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "StatusMenuDelegate.h"
+#import "ClockModel.h"
+#import "ClockView.h"
 
 @interface BinaryAppDelegate : NSObject <NSApplicationDelegate> {
-@private
-  NSWindow *window;
+  NSMenu *menu;
+  
+  NSStatusItem *statusItem;
+  ClockModel *clock;
+  ClockView *view;
+  
+  NSTimer *timer;
 }
 
-@property (assign) IBOutlet NSWindow *window;
+@property (assign, readonly) IBOutlet NSMenu *menu;
+
+- (void)tick:(NSTimer *)interval;
 
 @end
