@@ -7,7 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "StatusMenuDelegate.h"
+#import <math.h>
 #import "ClockModel.h"
 #import "ClockView.h"
 

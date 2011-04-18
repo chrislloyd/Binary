@@ -9,10 +9,18 @@
 #import <Cocoa/Cocoa.h>
 #import "ClockModel.h"
 
-@interface ClockView : NSView {
+@interface ClockView : NSView<NSMenuDelegate> {
   ClockModel *model;
+  NSStatusItem *statusItem;
+  
+  BOOL isMenuVisible;
 }
 
-@property (retain) ClockModel *model;
+@property (retain, nonatomic) ClockModel *model;
+@property (retain, nonatomic) NSStatusItem *statusItem;
+
+
+- (void)drawDot:(NSRect)rect;
+- (NSColor *)foregroundColor;
 
 @end

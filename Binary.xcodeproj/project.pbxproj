@@ -13,7 +13,6 @@
 		83742DED1355CCCF008F8BE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83742DEC1355CCCF008F8BE1 /* main.m */; };
 		83742DF31355CE59008F8BE1 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 83742DF21355CE59008F8BE1 /* Icon.icns */; };
 		83742DF71355CF08008F8BE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83742DF91355CF08008F8BE1 /* InfoPlist.strings */; };
-		837B215C13594276008F2428 /* StatusMenuDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 837B215B13594276008F2428 /* StatusMenuDelegate.m */; };
 		837B215F1359484C008F2428 /* ClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 837B215E1359484C008F2428 /* ClockView.m */; };
 		837B21621359488C008F2428 /* ClockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 837B21611359488C008F2428 /* ClockModel.m */; };
 /* End PBXBuildFile section */
@@ -32,8 +31,6 @@
 		83742DF01355CCE9008F8BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		83742DF21355CE59008F8BE1 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		83742DF81355CF08008F8BE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		837B215A13594276008F2428 /* StatusMenuDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMenuDelegate.h; sourceTree = "<group>"; };
-		837B215B13594276008F2428 /* StatusMenuDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusMenuDelegate.m; sourceTree = "<group>"; };
 		837B215D1359484C008F2428 /* ClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockView.h; sourceTree = "<group>"; };
 		837B215E1359484C008F2428 /* ClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockView.m; sourceTree = "<group>"; };
 		837B21601359488C008F2428 /* ClockModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockModel.h; sourceTree = "<group>"; };
@@ -96,8 +93,6 @@
 				834AA88D13557EA70081F17F /* BinaryAppDelegate.h */,
 				834AA88E13557EA70081F17F /* BinaryAppDelegate.m */,
 				834AA89013557EA70081F17F /* MainMenu.xib */,
-				837B215A13594276008F2428 /* StatusMenuDelegate.h */,
-				837B215B13594276008F2428 /* StatusMenuDelegate.m */,
 				837B215D1359484C008F2428 /* ClockView.h */,
 				837B215E1359484C008F2428 /* ClockView.m */,
 				837B21601359488C008F2428 /* ClockModel.h */,
@@ -183,7 +178,6 @@
 			files = (
 				834AA88F13557EA70081F17F /* BinaryAppDelegate.m in Sources */,
 				83742DED1355CCCF008F8BE1 /* main.m in Sources */,
-				837B215C13594276008F2428 /* StatusMenuDelegate.m in Sources */,
 				837B215F1359484C008F2428 /* ClockView.m in Sources */,
 				837B21621359488C008F2428 /* ClockModel.m in Sources */,
 			);

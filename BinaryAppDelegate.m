@@ -7,8 +7,6 @@
 //
 
 #import "BinaryAppDelegate.h"
-#import <math.h>
-
 
 @implementation BinaryAppDelegate
 
@@ -18,10 +16,7 @@
 {
   clock = [[ClockModel alloc] init];
   [clock retain];
-  
-  /* Set the menu delegate so the date can change when it is shown */
-  [menu setDelegate:[[StatusMenuDelegate alloc] init]];
-  
+    
   /* Activates the status menu icon */
   NSStatusBar *statusBar = [NSStatusBar systemStatusBar];
   
@@ -38,6 +33,7 @@
   
   /* Hook up shit */
   [view setModel:clock];
+  [view setStatusItem:statusItem];
   
   [statusItem setView:view];
   
